@@ -124,8 +124,118 @@ main {
   grid-template-columns: 2fr 1fr; }
 
 .about {
-  padding: 6rem;
+  padding: 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 2rem; }
+  gap: 6rem; }
+  .about_one {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem; }
+    .about_one-title {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #111; }
+    .about_one-text {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.5; }
+
+.inspiration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  position: relative; }
+  .inspiration_left {
+    padding: 8rem;
+    background-image: linear-gradient(to right bottom, #deb88794, #deb8877e), url("../img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .inspiration_left-img {
+      width: 100%; }
+    .inspiration_left-img-2 {
+      position: absolute;
+      top: 45%;
+      left: 27%;
+      width: 27%; }
+  .inspiration_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: start;
+    background-color: #fafafa;
+    padding: 10rem; }
+    .inspiration_right-title {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #deb887;
+      text-transform: uppercase; }
+    .inspiration_right-idea {
+      font-size: 2.2rem;
+      font-style: italic;
+      color: #333; }
+    .inspiration_right-text {
+      font-size: 1rem;
+      color: #777;
+      line-height: 1.4; }
+    .inspiration_right-btn {
+      text-decoration: none;
+      color: white;
+      background-color: #deb887;
+      padding: 1rem 0;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+      width: 60%; }
+
+.homes {
+  padding: 10rem 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4rem; }
+  .homes_item {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr; }
+    .homes_item-top-img {
+      width: 100%; }
+    .homes_item-btn {
+      text-decoration: none;
+      color: white;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      font-weight: 500;
+      width: 80%;
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      background-color: #121424;
+      padding: 0.5rem 0; }
+    .homes_item-btm {
+      background-color: #fafafa;
+      display: flex;
+      flex-direction: column; }
+      .homes_item-btm-grid {
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+        row-gap: 2rem; }
+        .homes_item-btm-grid-item {
+          font-size: 1.2rem;
+          color: #777; }
+      .homes_item-btm-btn {
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: #deb887;
+        padding: 1rem 0;
+        text-transform: uppercase;
+        font-size: 1.2rem; }
