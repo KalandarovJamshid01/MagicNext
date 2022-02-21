@@ -1,0 +1,15 @@
+main {
+  margin-left: 6rem;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.about {
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+
+}

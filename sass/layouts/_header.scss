@@ -1,0 +1,110 @@
+.hero {
+  &_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 4rem 6rem;
+    background-image: linear-gradient(#121424f5, #121423f4),
+      url("../img/hero.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    &-logo {
+      justify-self: center;
+      width: 20%;
+      &-img {
+        width: 100%;
+      }
+    }
+    &-basic {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: start;
+      gap: 1.5rem;
+      &-txt {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $main-color;
+        text-transform: uppercase;
+      }
+      &-text {
+        font-size: 3.2rem;
+        font-weight: 500;
+        color: white;
+      }
+      &-btn {
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        padding: 1rem 0 0 0;
+        background-color: $main-color;
+        text-transform: uppercase;
+        text-align: center;
+        width: 40%;
+      }
+    }
+    &-btm {
+      display: grid;
+      grid-template-columns: 1fr;
+      &-text {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 300;
+        padding: 1rem;
+        color: white;
+      }
+      &-imgs {
+        display: flex;
+        justify-content: space-around;
+        &-img {
+          width: 10%;
+        }
+      }
+    }
+  }
+  &_left {
+    background-color: $primary-color;
+    padding: 8rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    &-txt {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: $main-color;
+      justify-self: center;
+      text-transform: uppercase;
+    }
+    &-realtor {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      &-img {
+        width: 35%;
+        border-radius: 50%;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      &-author {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: start;
+        &-txt {
+          font-size: 1.6rem;
+          font-weight: 600;
+          color: white;
+        }
+        &-text {
+          font-size: 1.4rem;
+          color: #ddd;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
