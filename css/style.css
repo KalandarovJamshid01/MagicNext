@@ -12,8 +12,8 @@ body {
   grid-template-columns: 1fr;
   gap: 3rem;
   padding: 4rem 6rem;
-  background-image: linear-gradient(#121424f5, #121423f4), url("../img/hero.jpeg");
-  background-size: cover;
+  background-image: linear-gradient(#121424ec, #121423de), url("../img/hero.jpeg");
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: no-repeat; }
   .hero_right-logo {
